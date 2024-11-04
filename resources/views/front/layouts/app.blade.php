@@ -11,7 +11,10 @@
     <!-- Loader -->
     {{-- <div id="WAButton"></div>  --}}
     <!-- Loader -->
-
+@include('laravel-seo::sd-organization')    
+	@include('laravel-seo::sd-local-business')
+	@include('laravel-seo::sd-website')
+	@include('laravel-seo::sd-breadcrumblist')
     <!-- TAGLINE START-->
     <div class="tagline">
         <div class="container">

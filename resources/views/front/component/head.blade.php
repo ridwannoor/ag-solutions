@@ -5,6 +5,7 @@
     <meta name="description" content="Responsive Multipurpose Creative Landing Page Template" />
     <meta name="keywords" content="Bootstrap 4, SASS, Clean, Multipurpose, Responsive, Modern" />
     <meta content="Shreethemes" name="author" />
+    <meta name="description" content="{{ Seo::get('description') }}" />
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
     <!-- Bootstrap -->
@@ -18,6 +19,9 @@
     <link rel="stylesheet" href="{{ asset('front/assets/css/owl.theme.default.min.css') }}" />
     <!-- Main Css -->
     <!-- Custom Css -->
+    @include('laravel-seo::meta-facebook')
+    @include('laravel-seo::meta-twitter')
+
     @yield('script-head')
     <link href="{{ asset('front/assets/css/style.css') }}" rel="stylesheet" type="text/css" id="theme-opt" />
     <link href="{{ asset('front/assets/css/colors/default.css') }}" rel="stylesheet" id="color-opt">

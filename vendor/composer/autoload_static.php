@@ -145,6 +145,10 @@ class ComposerStaticInitff121fa9c1b81623e8a5d9b4159d27d6
             'Illuminate\\Foundation\\Auth\\' => 27,
             'Illuminate\\' => 11,
         ),
+        'H' => 
+        array (
+            'Helori\\LaravelSeo\\' => 18,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -477,6 +481,10 @@ class ComposerStaticInitff121fa9c1b81623e8a5d9b4159d27d6
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'Helori\\LaravelSeo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/helori/laravel-seo/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -2579,6 +2587,9 @@ class ComposerStaticInitff121fa9c1b81623e8a5d9b4159d27d6
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Helori\\LaravelSeo\\Facades\\Seo' => __DIR__ . '/..' . '/helori/laravel-seo/src/Facades/Seo.php',
+        'Helori\\LaravelSeo\\Seo' => __DIR__ . '/..' . '/helori/laravel-seo/src/Seo.php',
+        'Helori\\LaravelSeo\\SeoServiceProvider' => __DIR__ . '/..' . '/helori/laravel-seo/src/SeoServiceProvider.php',
         'Highlight\\Autoloader' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/Autoloader.php',
         'Highlight\\HighlightResult' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/HighlightResult.php',
         'Highlight\\Highlighter' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/Highlighter.php',

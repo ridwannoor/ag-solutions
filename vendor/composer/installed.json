@@ -2777,6 +2777,56 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
+            "name": "helori/laravel-seo",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helori/laravel-seo.git",
+                "reference": "4907b0459663c2143054391116a7f488785d223b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helori/laravel-seo/zipball/4907b0459663c2143054391116a7f488785d223b",
+                "reference": "4907b0459663c2143054391116a7f488785d223b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "time": "2017-05-18T07:19:28+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Helori\\LaravelSeo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Helori Lanos",
+                    "email": "helori@algoart.fr",
+                    "homepage": "https://algoart.fr"
+                }
+            ],
+            "description": "SEO tools to insert meta and structured-data in laravel projects",
+            "keywords": [
+                "laravel",
+                "seo",
+                "structured data"
+            ],
+            "support": {
+                "issues": "https://github.com/helori/laravel-seo/issues",
+                "source": "https://github.com/helori/laravel-seo/tree/master"
+            },
+            "install-path": "../helori/laravel-seo"
+        },
+        {
             "name": "justinrainbow/json-schema",
             "version": "5.3.0",
             "version_normalized": "5.3.0.0",
