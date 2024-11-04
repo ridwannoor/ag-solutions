@@ -50,4 +50,13 @@
                 margin-top:16px;
             }
         </style>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLG6D7Z4PL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CLG6D7Z4PL');
+</script>
 </head>
